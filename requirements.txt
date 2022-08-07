@@ -1,0 +1,4 @@
+Babel==2.10.3
+future==0.18.2
+pytz==2022.1
+tkcalendar==1.6.1
