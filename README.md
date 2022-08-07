@@ -45,8 +45,12 @@ python3 -m venv env
 source env/bin/activate
 
 # install dependencies from requirements.txt
-py -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
+
+# run the project
+python3 main.py
 ```
+> Some Linux users might not have tkinter preinstalled, so they need to run ```sudo apt-get install python3-tk```
 
 ```cmd
 :: For Windows
@@ -59,6 +63,9 @@ py -m venv env
 
 :: install dependencies from requirements.txt
 py -m pip install -r requirements.txt
+
+:: run the project
+py main.py
 ```
 
 ## Screenshots
